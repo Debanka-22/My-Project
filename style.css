@@ -257,3 +257,112 @@ ul a {
 .copyright {
     padding-top: 7px;
 }
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .panel-ops p {
+        margin: 5px;
+        display: block;
+    }
+
+    .panel-deals {
+        margin: 10px 0;
+    }
+
+    .hero-section {
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 90%;
+        font-size: 0.75rem;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .foot-panel2 ul {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .foot-panel3 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .foot-panel4 {
+        font-size: 0.6rem;
+        padding: 10px;
+    }
+
+    .nav-cart i {
+        font-size: 24px;
+    }
+
+    .nav-cart {
+        font-size: 0.75rem;
+    }
+
+    .add-icon {
+        justify-content: center;
+    }
+
+    .search-select {
+        font-size: 0.8rem;
+    }
+
+    .search-input {
+        font-size: 0.9rem;
+    }
+
+    .search-icon {
+        font-size: 1rem;
+    }
+}
