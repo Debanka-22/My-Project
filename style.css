@@ -114,6 +114,7 @@ span {
 
 /* panel */
 .panel {
+    display: flex;
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -261,7 +262,7 @@ ul a {
 /* Responsive Design for Mobile Devices */
 @media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-wrap: wrap;
         height: auto;
         padding: 10px 0;
     }
@@ -276,12 +277,13 @@ ul a {
     }
 
     .panel {
-        flex-direction: column;
+        flex-wrap: wrap;
         height: auto;
         padding: 10px 0;
     }
 
     .panel-ops {
+        display: flex;
         width: 100%;
         text-align: center;
         margin: 10px 0;
@@ -366,3 +368,4 @@ ul a {
         font-size: 1rem;
     }
 }
+
